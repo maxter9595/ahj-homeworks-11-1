@@ -5,4 +5,3 @@
 
 ![CI](https://github.com/maxter9595/ahj-homeworks-11-1/actions/workflows/web.yml/badge.svg)
 
-
