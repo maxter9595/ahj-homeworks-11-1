@@ -1,0 +1,63 @@
+/* Container Styles */
+.container {
+  width: 47.5%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Incoming Header Styles */
+.incoming {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+/* Table Styles */
+.messages-table {
+  width: 85%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.messages-table th,
+.messages-table td {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  word-wrap: break-word;
+  max-width: 230px;
+}
+
+.messages-table th {
+  background-color: #f2f2f2;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .messages-table {
+    width: 100%;
+  }
+
+  .messages-table th,
+  .messages-table td {
+    padding: 10px;
+  }
+
+  .incoming {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .messages-table th,
+  .messages-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .incoming {
+    font-size: 16px;
+  }
+}
