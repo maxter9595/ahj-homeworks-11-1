@@ -1,3 +1,3 @@
 import MessageWidget from "./MessageWidget.js";
 
-new MessageWidget();
+new MessageWidget("https://ahj-homeworks-11-1.onrender.com");
